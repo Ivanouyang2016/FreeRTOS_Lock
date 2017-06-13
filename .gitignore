@@ -1,0 +1,65 @@
+*.o
+*.d
+*.dep
+*.sct
+*.map
+*.lnp
+*.htm
+*.crf
+*.iex
+Obj/*
+Exe/*
+List/*
+*.lst
+*.txt
+*.axf
+*.ini
+*.uvoptx
+# Compiled binaries
+*.o
+*.bin
+*.elf
+*.hex
+*.map
+*.out
+*.obj
+
+# Trash
+*.bak
+thumbs.db
+*.~*
+*.uvguix.*
+# IAR Settings  
+**/settings/*.crun  
+**/settings/*.dbgdt  
+**/settings/*.cspy  
+**/settings/*.cspy.*  
+**/settings/*.xcl  
+**/settings/*.dni  
+**/settings/*.wsdt  
+**/settings/*.wspos  
+** Src/nfc/ISO14443
+# IAR Debug Exe  
+**/Exe/*.sim  
+
+# IAR Debug Obj  
+**/Obj/*.pbd  
+**/Obj/*.pbd.*  
+**/Obj/*.pbi  
+**/Obj/*.pbi.*  
+
+# IAR project "Debug" directory
+Debug/
+
+# IAR project "Release" directory
+Release/
+
+# IAR project settings directory
+settings/
+
+# IAR backup files
+Backup*
+
+# IAR .dep files
+*.dep
+*~
